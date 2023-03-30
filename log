@@ -26,3 +26,14 @@ ju., 30 de mar. de 2023 18:02:33:
  tests:  10|2
 total_score: 40/70
 dca8f38
+ju., 30 de mar. de 2023 18:05:14: 
+ arraylist.c | 5 +++++
+ 1 file changed, 5 insertions(+)
+In file included from test.c:5:0:
+arraylist.c: In function 'pop':
+arraylist.c:64:5: error: suggest parentheses around assignment used as truth value [-Werror=parentheses]
+     if(l->size = 0)
+     ^~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+448d0b8
