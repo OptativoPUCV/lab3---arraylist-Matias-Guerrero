@@ -37,3 +37,9 @@ arraylist.c:64:5: error: suggest parentheses around assignment used as truth val
 cc1.exe: all warnings being treated as errors
 Compilation failed
 448d0b8
+ju., 30 de mar. de 2023 18:05:23: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  11|1
+total_score: 50/70
+19c9571
