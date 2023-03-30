@@ -8,3 +8,9 @@ ju., 30 de mar. de 2023 17:45:58:
  tests:  2|5
 total_score: 10/70
 572cba7
+ju., 30 de mar. de 2023 17:48:31: 
+ arraylist.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 20/70
+ec0e9f9

@@ -11,7 +11,7 @@ typedef struct ArrayList {
 } ArrayList;
 
 ArrayList *createList(void) {
-    ArrayList* nuevo = (ArrayList *)malloc(sizeof(ArrayList));
+    ArrayList *nuevo = (ArrayList *)malloc(sizeof(ArrayList));
 
     assert(nuevo != NULL);
 
@@ -19,7 +19,7 @@ ArrayList *createList(void) {
     nuevo->capacity = 2;
     nuevo->size = 0;
 
-    return NULL;
+    return nuevo;
 }
 
 void append(ArrayList * l, void * data){
